@@ -1,0 +1,23 @@
+{
+  "name": "matchybackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annieneedscoffee/matchybackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annieneedscoffee/matchybackend/issues"
+  },
+  "homepage": "https://github.com/annieneedscoffee/matchybackend#readme",
+  "dependencies": {
+    "knex": "^0.14.2",
+    "yarn": "^1.3.2"
+  }
+}
