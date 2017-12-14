@@ -2,6 +2,7 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('requests', function(table){
     table.increments();
+    table.string('title');
     table.string('description');
     table.string('photo');
   });
